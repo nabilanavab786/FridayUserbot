@@ -21,12 +21,13 @@ PREV_REPLY_MESSAGE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**If You Want You Can Leave A Message Here ! My Boss Will Surely See And Reply To You Soon !**"
 USER_BOT_WARN_ZERO = "`You were spamming my Boss's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("`Hello My Friend ! This is` **F.R.I.D.A.Y**\n"
-                    "`Private Messaging Security Protocol ⚠️`\n\n"
-                    "**Currently My Boss**\n"
-                    f"{DEFAULTUSER} is Busy ! Please Don't Spam My Masters Inbox\n\n"
-                    f"{CUSTOM_MIDDLE_PMP} \n\n"
-                    "**Kindly Send** `/start` **If You Want To Register Your Request**")
+USER_BOT_NO_WARN = ("𝙼𝚢 𝙼𝚊𝚜𝚝𝚎𝚛 @𝙳𝚞𝚕𝚚𝚞𝚊𝚛_𝚂𝚊𝚕𝚖𝚊𝚊𝚗 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚗𝚘𝚝 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎..
+
+𝙸𝚏 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚝𝚛𝚢𝚒𝚗𝚐 𝚝𝚘 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚏𝚘𝚛 𝚊 𝚖𝚘𝚟𝚒𝚎. 𝙺𝚒𝚗𝚍𝚢 𝚙𝚕𝚎𝚊𝚜𝚎 𝚟𝚒𝚜𝚒𝚝 𝚖𝚢 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 . 𝚃𝚑𝚎𝚛𝚎 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚏𝚒𝚗𝚍 𝚊𝚕𝚖𝚘𝚜𝚝 𝚊𝚕𝚕 𝙼𝚊𝚕𝚊𝚢𝚊𝚕𝚊𝚖 𝙼𝚘𝚟𝚒𝚎𝚜
+Join my channel
+[TaMiL RoCkErS](https://t.me/joinchat/AAAAAEmevEkPZfUp-UrdyA)
+
+i will answer to your message soon please wait for my response and don't spam my pm.. thanks")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
